@@ -1,0 +1,22 @@
+{
+  "name": "wasm_babel_plugin_check_comment",
+  "version": "1.0.0",
+  "description": "a wasm write with rust, build for babel as plugin for checking exported function/arrow function if have leading comments",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "wasm-pack build --release -t nodejs --out-dir dist --out-name index",
+    "build-debug": "wasm-pack build --release -t nodejs --out-dir dist --out-name index -- --features debug"
+  },
+  "keywords": [
+    "wasm",
+    "rust",
+    "babel",
+    "plugin",
+    "function",
+    "leading",
+    "comments"
+  ],
+  "author": "huaidandan",
+  "license": "ISC"
+}
