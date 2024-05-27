@@ -10,7 +10,9 @@ npm run build
 
 ## how to use
 
-copy the dist dir into your js project and load:
+```bash
+npm install babel-plugin-check-exported-function-comments -D
+```
 
 ```js
 const wasm = require('./you dir name/index');
