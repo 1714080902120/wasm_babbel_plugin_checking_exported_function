@@ -15,7 +15,7 @@ npm install babel-plugin-check-exported-function-comments -D
 ```
 
 ```js
-const wasm = require('./you dir name/index');
+const wasm = require('babel-plugin-check-exported-function-comments/index');
 babelPlugin.push(wasm.init);
 ```
 
